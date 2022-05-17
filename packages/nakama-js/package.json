@@ -1,6 +1,5 @@
 {
     "name": "@heroiclabs/nakama-js",
-    "version": "2.3.0",
     "scripts": {
         "build": "node build.js",
         "docs": "typedoc index.ts --gaID UA-89839802-1 --out ../../docs"
@@ -24,7 +23,7 @@
         "realtime",
         "realtime chat"
     ],
-    "repository": "https://github.com/heroiclabs/nakama-js",
+    "repository": "https://github.com/oskar031/nakama-js",
     "homepage": "https://heroiclabs.com",
     "bugs": "https://github.com/heroiclabs/nakama-js/issues",
     "author": "Chris Molozian <chris@heroiclabs.com>",
