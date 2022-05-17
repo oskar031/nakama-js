@@ -1,3 +1,12 @@
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+var btoa = require('btoa')
+var atob = require('atob')
+const URLSearchParams = require('url-search-params')
+var WebSocket = require('ws')
+var XMLHttpRequest = require("xhr2")
+var self = {} // dont forget this also, in node this object will not be created
+
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
